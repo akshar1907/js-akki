@@ -33,5 +33,29 @@ const heros = ["shaktiman", "naagraj", "doga"];
         
     }
     console.log(typeof myFunction);
-    
 
+
+    //********************************************* 
+
+    // Stack memory use =>(primitive), Heap memory use =>(Non-primitive)
+
+    let myYoutubename = "aksharcodingcom"
+
+    let anotherName = myYoutubename
+    anothername = "chai aur coffee"
+    console.log(myYoutubename);
+    
+    console.log(anothername);
+
+    let userOne = {
+        email: "abc@gmail.com",
+        upi: "userybl"
+    }
+
+    let userTwo = userOne
+
+    userTwo.email = "tyr@gmail.com"
+    console.log(userOne.email);
+    console.log(userTwo.email);
+    
+    
